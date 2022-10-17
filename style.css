@@ -126,3 +126,8 @@ a{
         top: 850px;
     }
 }
+@media(max-width:357px) {
+    .lastSection {
+        top: 910px;
+    }
+}
