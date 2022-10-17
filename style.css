@@ -1,0 +1,128 @@
+.header{
+    background-image: url(./images/mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    z-index: -1;
+}
+.nav-item{
+    margin: 0 20px;
+    font-weight: bold;
+}
+.leaves{
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    height: 330px;
+    width: 460px;
+}
+.header .container .center{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    max-width: 925px;
+    margin-bottom: 5%;
+    background: rgba(15, 53, 142, 0.6);
+}
+.section-04{
+    background-image: url(./images/mountain.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxes{
+    background-color: rgb(28, 28, 103,0.3);
+    height: 95%;
+    width: 95%;
+    margin: auto;
+     
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.section-07 img{
+    width: 100%;
+    height: 46px;
+}
+.firstCard {
+    position: absolute;
+    top: 100%;
+    left: 13%;
+}
+
+.blank {
+    height: 350px;
+}
+@media (max-width:1155px){
+    .leaves{
+        width: 400px;
+    }
+}
+@media (max-width:992px){
+    .leaves{
+        display: none;
+    }
+
+    .blank{
+        display: none;
+    }
+    .firstCard{
+        position: static;
+        width: 500px;
+    }
+    .lastSection{
+        position: relative;
+        top: 383px;
+    }
+}
+@media(max-width:783px){
+    .lastSection{
+        top: 417px;
+    }
+}
+@media(max-width:695px) {
+    .lastSection {
+        top: 450px;
+    }
+}
+@media(max-width:655px) {
+    .lastSection {
+        top: 470px;
+    }
+}
+@media(max-width:576px) {
+    .lastSection {
+        top: 545px;
+    }
+}
+@media(max-width:517px) {
+    .lastSection {
+        top: 618px;
+    }
+}
+@media(max-width:481px) {
+    .lastSection {
+        top: 690px;
+    }
+}
+@media(max-width:435px) {
+    .lastSection {
+        top: 730px;
+    }
+}
+@media(max-width:414px) {
+    .lastSection {
+        top: 790px;
+    }
+}
+@media(max-width:373px) {
+    .lastSection {
+        top: 850px;
+    }
+}
