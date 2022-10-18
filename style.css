@@ -59,6 +59,9 @@ a{
 .blank {
     height: 350px;
 }
+.userReview{
+    margin-right: calc(var(--bs-gutter-x) * 0);
+}
 @media (max-width:1155px){
     .leaves{
         width: 400px;
